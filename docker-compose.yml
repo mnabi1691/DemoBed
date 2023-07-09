@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  paymentapi:
+    image: ${DOCKER_REGISTRY-}demobedservicespaymentapi
+    build:
+      context: .
+      dockerfile: Source/Services/Payment/DemoBed.Services.Payment.Api/Dockerfile
