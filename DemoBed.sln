@@ -91,7 +91,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBed.Services.Messaging.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExceptionHandling", "ExceptionHandling", "{7F2B0109-1F41-4A54-A3CB-30D658054F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBed.Base.ExceptionHandling,Middleware", "Source\Base\ExeptionHandling\DemoBed.Base.ExceptionHandling,Middleware\DemoBed.Base.ExceptionHandling,Middleware.csproj", "{CA191C71-D4F8-4FF2-AA7D-9D14C1D688AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBed.Base.ExceptionHandling,Middleware", "Source\Base\ExeptionHandling\DemoBed.Base.ExceptionHandling,Middleware\DemoBed.Base.ExceptionHandling,Middleware.csproj", "{CA191C71-D4F8-4FF2-AA7D-9D14C1D688AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StateMahines", "StateMahines", "{0A8E8E84-4451-4D87-B086-CF870961A22B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBed.StateMachines.SagaOrchestrationStateMahines", "Source\StateMahines\DemoBed.StateMachines.SagaOrchestrationStateMahines\DemoBed.StateMachines.SagaOrchestrationStateMahines.csproj", "{C7C6DD99-1F35-4ACE-9484-04D5D3D07F16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MassTransit", "MassTransit", "{2A0D415E-9906-41B5-B4B8-3D7D6A8A745F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBed.Base.MassTransit", "Source\Base\MassTransit\DemoBed.Base.MassTransit\DemoBed.Base.MassTransit.csproj", "{9DCBC72B-744B-4D99-B0B1-5454ED0B1422}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -199,6 +207,14 @@ Global
 		{CA191C71-D4F8-4FF2-AA7D-9D14C1D688AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA191C71-D4F8-4FF2-AA7D-9D14C1D688AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA191C71-D4F8-4FF2-AA7D-9D14C1D688AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C6DD99-1F35-4ACE-9484-04D5D3D07F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C6DD99-1F35-4ACE-9484-04D5D3D07F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C6DD99-1F35-4ACE-9484-04D5D3D07F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C6DD99-1F35-4ACE-9484-04D5D3D07F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DCBC72B-744B-4D99-B0B1-5454ED0B1422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCBC72B-744B-4D99-B0B1-5454ED0B1422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCBC72B-744B-4D99-B0B1-5454ED0B1422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCBC72B-744B-4D99-B0B1-5454ED0B1422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -247,6 +263,10 @@ Global
 		{334EA7B2-E119-4F65-8C6A-E30C9A370CAB} = {0B6419F5-A9FF-4681-9C0D-F18ECBE3F475}
 		{7F2B0109-1F41-4A54-A3CB-30D658054F70} = {C64E7CBA-CE81-4EB0-BB0A-A6E58C89DA30}
 		{CA191C71-D4F8-4FF2-AA7D-9D14C1D688AB} = {7F2B0109-1F41-4A54-A3CB-30D658054F70}
+		{0A8E8E84-4451-4D87-B086-CF870961A22B} = {707A12BD-6DF6-43DD-9207-3038F4D569A4}
+		{C7C6DD99-1F35-4ACE-9484-04D5D3D07F16} = {0A8E8E84-4451-4D87-B086-CF870961A22B}
+		{2A0D415E-9906-41B5-B4B8-3D7D6A8A745F} = {C64E7CBA-CE81-4EB0-BB0A-A6E58C89DA30}
+		{9DCBC72B-744B-4D99-B0B1-5454ED0B1422} = {2A0D415E-9906-41B5-B4B8-3D7D6A8A745F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51EAB7A3-073A-486F-AF94-3D0308A3BC85}
